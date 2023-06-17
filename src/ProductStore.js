@@ -1,4 +1,4 @@
- import burger1 from "./assets/burger-img/burger-1.png"
+import burger1 from "./assets/burger-img/burger-1.png"
 import burger2 from "./assets/burger-img/burger-2.png"
 import burger3 from "./assets/burger-img/burger-3.png"
 import burger4 from "./assets/burger-img/burger-4.png"
