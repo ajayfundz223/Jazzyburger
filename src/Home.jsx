@@ -6,7 +6,7 @@ import heroBanner from "./assets/header/hero-img.png"
 import Header from './component/Header';
 import Footer2 from './component/Footer2';
 
-const Home = ({ products,handleIncrease,handleReduce,toCartButton,cart }) => {
+const Home = ({ products,handleIncrease,handleReduce,toCartButton,cart,goods }) => {
   return (
     <div className=''>
       <Header cart={cart} toCartButton={toCartButton} />

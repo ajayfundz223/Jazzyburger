@@ -8,11 +8,14 @@ import Signup from "./Signup";
 import Login from "./Login";
 import CheckOut from "./CheckOut";
 import Update from "./Update";
+import ProductList from "./ProductList";
 
 function App() {
   const [products, setProducts] = useState(data);
   const [cart, setCart] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+
+
   const handleIncrease = (id) => {
     const newProducts = products.map((product) => {
       if (product.id === id) {
@@ -109,6 +112,7 @@ function App() {
                   toCartButton={toCartButton}
                   />}
               />
+              <Route path="/productlist" element={<ProductList/>}/>
             </Routes>
           </div>
         </div>
